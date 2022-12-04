@@ -6,8 +6,8 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
 
 public class ForgetStepdefs extends AbstractStepDefs{
-    @Given("users login to saucedemo")
-    public void usersLoginToSaucedemo() {
+    @Given("users login to phptravels")
+    public void usersLoginToPhptravels() {
         driver.get("https://phptravels.net/api/admin");
     }
 
@@ -59,4 +59,5 @@ public class ForgetStepdefs extends AbstractStepDefs{
             System.out.println("Fail");
         }
     }
+
 }

@@ -2,7 +2,7 @@ Feature: user Forget Password
 
 
   Scenario Outline: Login functionality for a social networking site.
-    Given users login to saucedemo
+    Given users login to phptravels
     When users enter Username as "<username>" and Password as "<password>"
     Then login should be unsuccessful
     Examples:
