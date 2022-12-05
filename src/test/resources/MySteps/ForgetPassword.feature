@@ -9,6 +9,8 @@ Feature: user Forget Password
       |   username    |   password   |
       |   username1   |     123      |
       |   username2   |     abcd     |
+      |   username3   |     qwer     |
+      |   username4   |     oopp     |
       | standard_user | secret_sauce |
 
 
@@ -21,4 +23,5 @@ Feature: user Forget Password
       |                         |
       |         123456          |
       |         abcdef          |
+      |         aaabbbccc       |
       |  admin@phptravels.com   |
